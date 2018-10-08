@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: hello-docker-react
+    container_name: docker-converter
     entrypoint: sh entrypoint.sh
     working_dir: /home/node
     ports:

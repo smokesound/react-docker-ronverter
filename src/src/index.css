@@ -1,0 +1,129 @@
+@media only screen and (min-width: 500px) {
+  .allmover{
+    visibility: hidden
+  }
+  .warning {
+    margin-top: 100px;
+    visibility: visible;
+    color: #b1b1b1;
+    display: inline-block !important;
+    font-size: 100px;
+    opacity: 1;
+    padding: 30px;
+    line-height: 81px;
+    text-align: center;
+  }
+}
+.warning{
+  display: none;
+}
+
+html{
+  overflow-x: hidden;
+}
+.whitebg{
+  background:#fff;
+}
+.delete{
+  font-size: 13px;
+    font-style: italic;
+    color: #d84242;
+}
+.addmore{
+  background: #00a797;
+  border-radius: 4px;
+}
+.container.stick{
+  position: fixed;
+  bottom: 0;
+  background: #3c3c3c;
+}
+.inputmore{
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}  
+.whitefont{
+  color: #fff;
+}
+.dols{
+  position: absolute;
+  left: 12px;
+  top: 16px;
+  background:transparent;
+  border:none;
+}
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    overflow: hidden;
+  }
+  .container.slide{
+    white-space: nowrap;
+    overflow: scroll;
+    position: fixed;
+    top: 58px;
+    background: #fff;
+    z-index: 100;
+    border-bottom: 1px solid #ccc;
+  }
+  .container.noborder{
+    overflow: scroll;
+    padding-bottom: 80px;
+    padding-top: 110px;
+  }
+  .choosercurrency{
+    display: inline-block;
+    width: auto;
+    background: #00a897;
+    text-align: center;
+    border-radius: 24px;
+    padding: 6px 15px;
+    color: #fff;
+  }
+  .carding{
+    margin: 0;
+    margin-bottom: 9px;
+    padding: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    border-right: none;
+  }
+  .cardcurrency{
+    width: 100%;
+    display: inline-block;
+  }
+  .noborder{
+    border: none;
+  }
+  .cardcurrency{
+    background: #fff;
+  }
+  .noall{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+  .currency{
+    font-size: 17px;
+    font-weight: bold;
+    color: #5d5d5d;
+    border-bottom: 1px solid #ccc;
+  }
+  .header{
+    border-bottom: 1px solid #e8e8e8;
+    background: #f9f9f9;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .dissapear{
+    display: none;
+  }
+  ol, ul {
+    padding-left: 30px;
+  }
